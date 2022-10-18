@@ -1,0 +1,44 @@
+﻿@using System.Security.Claims
+@using HappyInsurance.BlazorCoreModules.CoreAuthenticationService
+@inject NavigationManager _navigationManager;
+@inject AuthenticationStateProvider _authenticationStateProvider;
+
+<AuthorizeView>
+    <Authorized>
+        <RadzenButton ButtonStyle="ButtonStyle.Danger" Text="Logout"  Click="logoutAsync" />
+        <br/>
+        <FileUploader UserId="@context.User.GetCurrentUserId()"/>
+        <div style="margin-left: 80px">
+            <ImageDownloader UserId="@context.User.GetCurrentUserId()" />
+        </div>
+    </Authorized>
+    <NotAuthorized>
+        <RadzenButton ButtonStyle="ButtonStyle.Warning" Text="Login" Click="@GoToLogin"/>
+        <br/>
+        <RadzenButton ButtonStyle="ButtonStyle.Warning" Text="Signup" Click="@GoToSignup"/>
+    </NotAuthorized>
+</AuthorizeView>
+
+
+@code
+{
+    private async Task logoutAsync()
+    {
+        var CustomAuthProvider = (CustomAuthProvider) _authenticationStateProvider;
+        await CustomAuthProvider.UpdateAuthenticationStateAsync(null);
+        _navigationManager.NavigateTo("/Login",true);
+
+        
+
+    }
+    
+    private async Task GoToLogin()
+    {
+        _navigationManager.NavigateTo("/Login");
+    }
+
+    private async Task GoToSignup()
+    {
+        _navigationManager.NavigateTo("/Signup");
+    }
+}

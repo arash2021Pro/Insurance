@@ -1,0 +1,79 @@
+﻿@page "/Signup"
+@using System.Text.Json
+@using CoreBussiness.BussinessEntity.Users
+@inherits HappyInsurance.BlazorCoreModules.CoreComponents.SignupComponent
+
+<CascadingValue Value="@Message">
+    <Alert/>
+</CascadingValue>
+
+
+
+
+<div class="container my-4">
+    <div class="row">
+    </div>
+    <div class="row">
+        <div class="col-lg-6 offset-lg-3">
+            <RadzenTemplateForm TItem="SignupModel" Data="_signupModel"  Submit="@SignupHandlerAsync"  >
+                <RadzenFieldset Text="Personal Informations">
+                    <p>
+                        
+                        <RadzenTextBox Name="PhoneNumber" Placeholder="PhoneNumber ..." @bind-Value=@_signupModel.PhoneNumber Style="display:block;text-align: center"  > </RadzenTextBox>
+                        <RadzenRequiredValidator Component="PhoneNumber" Text="PhoneNumber is required!" Style="position:absolute" Popup="true" />
+                    </p>
+                    <p>
+                       
+                        <RadzenTextBox Name="Password" @bind-Value=@_signupModel.Password Placeholder="Password ..."  Style="display:block;text-align: center" > </RadzenTextBox>
+                        <RadzenRequiredValidator Component="Password" Text="Password is required"  Style="position:absolute" Popup="true"  />
+                    </p>
+                    
+                    <p>
+                       
+                        <RadzenTextBox Name="First Name" @bind-Value=@_signupModel.Name Placeholder="Name ..." Style="display:block;text-align: center"  > </RadzenTextBox>
+                        <RadzenRequiredValidator Component="First Name" Text="FirstName is required"  Style="position:absolute" Popup="true"  />
+                    </p>   
+                    
+                    <p>
+                        
+                        
+                        <RadzenTextBox Name="LastName" @bind-Value=@_signupModel.LastName Placeholder="LastName ..." Style="display:block;text-align: center"  > </RadzenTextBox>
+                        <RadzenRequiredValidator Component="LastName" Text="LastName is required"  Style="position:absolute" Popup="true"  />
+                    </p>
+                    
+                    
+                    
+                    <p>
+                             
+                     
+                        <RadzenTextBox Name="National Code" Placeholder="National Code ..." @bind-Value=@_signupModel.NationalCode Style="display:block;text-align: center"  > </RadzenTextBox>
+                        <RadzenRequiredValidator Component="National Code" Text="National Code is required"  Style="position:absolute" Popup="true"  />
+                    </p>
+                    
+                    <p>
+                        
+                        <RadzenTextBox Name="Code"  Placeholder="Code ..."  @bind-Value=@_signupModel.Code Style="display:block;text-align: center"  > </RadzenTextBox>
+                        <br/>
+                        <p>Accept Rules  ? </p> 
+                        <RadzenCheckBox @bind-Value="@_signupModel.IsRuleAccepted"  TValue="bool"></RadzenCheckBox>
+                    </p>
+                    
+                    <div class="col-lg-3 offset-md-5">
+                        <RadzenButton ButtonType="ButtonType.Submit" Text="Signup" ButtonStyle="ButtonStyle.Primary"/>
+                    </div>
+                </RadzenFieldset>
+            </RadzenTemplateForm>
+        </div>
+    </div>
+</div>
+
+
+@code {
+    private SignupModel _signupModel { get; set; } = new SignupModel();
+
+    private async Task SignupHandlerAsync()
+    {
+        await SignupAsync(_signupModel);
+    }
+    
+}

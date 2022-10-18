@@ -1,0 +1,12 @@
+C:\Users\admin\RiderProjects\HappyInsurance\CoreInfraSructure\bin\Debug\net6.0\CoreInfraSructure.deps.json
+C:\Users\admin\RiderProjects\HappyInsurance\CoreInfraSructure\bin\Debug\net6.0\CoreInfraSructure.dll
+C:\Users\admin\RiderProjects\HappyInsurance\CoreInfraSructure\bin\Debug\net6.0\CoreInfraSructure.pdb
+C:\Users\admin\RiderProjects\HappyInsurance\CoreInfraSructure\obj\Debug\net6.0\CoreInfraSructure.csproj.AssemblyReference.cache
+C:\Users\admin\RiderProjects\HappyInsurance\CoreInfraSructure\obj\Debug\net6.0\CoreInfraSructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\RiderProjects\HappyInsurance\CoreInfraSructure\obj\Debug\net6.0\CoreInfraSructure.AssemblyInfoInputs.cache
+C:\Users\admin\RiderProjects\HappyInsurance\CoreInfraSructure\obj\Debug\net6.0\CoreInfraSructure.AssemblyInfo.cs
+C:\Users\admin\RiderProjects\HappyInsurance\CoreInfraSructure\obj\Debug\net6.0\CoreInfraSructure.csproj.CoreCompileInputs.cache
+C:\Users\admin\RiderProjects\HappyInsurance\CoreInfraSructure\obj\Debug\net6.0\CoreInfraSructure.dll
+C:\Users\admin\RiderProjects\HappyInsurance\CoreInfraSructure\obj\Debug\net6.0\refint\CoreInfraSructure.dll
+C:\Users\admin\RiderProjects\HappyInsurance\CoreInfraSructure\obj\Debug\net6.0\CoreInfraSructure.pdb
+C:\Users\admin\RiderProjects\HappyInsurance\CoreInfraSructure\obj\Debug\net6.0\ref\CoreInfraSructure.dll

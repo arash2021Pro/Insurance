@@ -1,0 +1,16 @@
+﻿@inherits HappyInsurance.BlazorCoreModules.CoreComponents.ImageDownloaderComponent
+@{
+    if (!String.IsNullOrEmpty(ImageUrl))
+    {
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-6">
+                    <RadzenImage Path="@ImageUrl" Style="background-position: center;background-size: cover;border-radius: 45px;height: 100px;width: 100px" />
+                </div>
+            </div>
+        </div>
+    }
+}
+
+
+

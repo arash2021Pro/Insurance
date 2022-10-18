@@ -1,0 +1,53 @@
+﻿@page "/Login"
+@using CoreApplication.UserApplication
+@using Microsoft.AspNetCore.Components
+@inherits HappyInsurance.BlazorCoreModules.CoreComponents.LoginComponent
+<link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+
+<CascadingValue Value="@Message">
+    <Alert/>
+</CascadingValue>
+
+
+
+<div class="container my-4">
+    <div class="row">
+    </div>
+    <div class="row">
+        <div class="col-lg-6 offset-lg-3">
+            <RadzenTemplateForm TItem="LoginModel" Data="LoginModel"  Submit="@HandlerLoginAsync"  >
+                <RadzenFieldset Text="Personal Informations">
+                    <p>
+                        
+                        <RadzenTextBox Name="PhoneNumber" Placeholder="PhoneNumber ..." @bind-Value="LoginModel.Phonenumber" Style="display:block;text-align: center"  > </RadzenTextBox>
+                        <RadzenRequiredValidator Component="PhoneNumber" Text="PhoneNumber is required!" Style="position:absolute" Popup="true" />
+                    </p>
+                    <p>
+                       
+                        <RadzenTextBox Name="Password" Placeholder="Password ..." @bind-Value="LoginModel.Password" Style="display:block;text-align: center" > </RadzenTextBox>
+                 
+                        <RadzenRequiredValidator Component="Password" Text="Password is required"  Style="position:absolute" Popup="true"  />
+                    </p>
+
+                    <div class="col-lg-3 offset-md-5">
+                        <RadzenButton ButtonType="ButtonType.Submit" Text="Login" ButtonStyle="ButtonStyle.Primary"/>
+                    </div>
+                    <span>
+                        <a role="button" class="btn btn-primary" href="/ForgetPassword">forget password</a>
+                    </span>
+                    
+                </RadzenFieldset>
+            </RadzenTemplateForm>
+        </div>
+    </div>
+</div>
+
+
+@code
+{
+    private LoginModel LoginModel { get; set; } = new ();
+    private async Task HandlerLoginAsync()
+    {
+        await LoginAsync(LoginModel);
+    }
+}

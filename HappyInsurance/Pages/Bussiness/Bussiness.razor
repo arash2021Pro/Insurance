@@ -1,0 +1,40 @@
+﻿@page "/Bussiness"
+@inherits HappyInsurance.BlazorCoreModules.CoreComponents.BussinessComponent
+
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 mt-4">
+            <RadzenText TextStyle="TextStyle.Body1">Choose any Bussiness Type that you are eager to have </RadzenText>
+        </div>
+        <div class="col-md-4 p-3">
+            <RadzenCard>
+            
+                <RadzenText TextStyle="TextStyle.Subtitle2" TagName="TagName.H3">you can get some referrals to earn money</RadzenText>
+                <RadzenButton Click="GoToGetRefAsync" Text="GetReferral"/>
+            </RadzenCard>
+            <div>
+                @{
+                    if (!String.IsNullOrEmpty(Code))
+                    {
+                        <RadzenText TextAlign="TextAlign.Center" TextStyle="TextStyle.Body2" Style="color: #0a53be">Your ref code : @Code</RadzenText>
+                    }
+                }
+            </div>
+        </div>
+        <div class="col-md-4 p-3">
+            <RadzenCard>
+                <RadzenText TextStyle="TextStyle.Subtitle2" TagName="TagName.H3">Custom content</RadzenText>
+               <a role="btn btn-primary" href="" >Investment</a>
+            </RadzenCard>
+        </div>
+        <div class="col-md-4 p-3">
+            <RadzenCard>
+                <RadzenText TextStyle="TextStyle.Subtitle2" TagName="TagName.H3">Custom content for HTML elment</RadzenText>
+                <a role="btn btn-primary" href="" >Plans</a>
+            </RadzenCard>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,14 @@
+﻿@using HappyInsurance.BlazorCoreModules.CoreAuthenticationService
+@inherits HappyInsurance.BlazorCoreModules.CoreComponents.FileUploaderComponent
+<InputFile  OnChange="@HandlerUploadImageAsync">
+    
+</InputFile>
+
+
+@code {
+    
+    private async Task HandlerUploadImageAsync(InputFileChangeEventArgs args)
+    {
+        await HandleUploadImageAsync(args);
+    }
+}

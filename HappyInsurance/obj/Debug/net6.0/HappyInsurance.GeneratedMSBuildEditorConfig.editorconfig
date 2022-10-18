@@ -1,0 +1,116 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = HappyInsurance
+build_property.RootNamespace = HappyInsurance
+build_property.ProjectDir = C:\Users\admin\RiderProjects\HappyInsurance\HappyInsurance\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\admin\RiderProjects\HappyInsurance\HappyInsurance
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/admin/RiderProjects/HappyInsurance/HappyInsurance/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/RiderProjects/HappyInsurance/HappyInsurance/Pages/Account/AuthCodeGenerator.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxBdXRoQ29kZUdlbmVyYXRvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/RiderProjects/HappyInsurance/HappyInsurance/Pages/Account/AuthorizeCode.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxBdXRob3JpemVDb2RlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/RiderProjects/HappyInsurance/HappyInsurance/Pages/Account/ForgetPassword.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxGb3JnZXRQYXNzd29yZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/RiderProjects/HappyInsurance/HappyInsurance/Pages/Account/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxMb2dpbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/RiderProjects/HappyInsurance/HappyInsurance/Pages/Account/SetNewPassword.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxTZXROZXdQYXNzd29yZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/RiderProjects/HappyInsurance/HappyInsurance/Pages/Account/Signup.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxTaWdudXAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/RiderProjects/HappyInsurance/HappyInsurance/Pages/Account/Verification.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxWZXJpZmljYXRpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/RiderProjects/HappyInsurance/HappyInsurance/Pages/Bussiness/Bussiness.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQnVzc2luZXNzXEJ1c3NpbmVzcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/RiderProjects/HappyInsurance/HappyInsurance/Pages/Bussiness/GetReferral.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQnVzc2luZXNzXEdldFJlZmVycmFsLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/RiderProjects/HappyInsurance/HappyInsurance/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/RiderProjects/HappyInsurance/HappyInsurance/Shared/Alert.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEFsZXJ0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/RiderProjects/HappyInsurance/HappyInsurance/Shared/FileUploader.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEZpbGVVcGxvYWRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/RiderProjects/HappyInsurance/HappyInsurance/Shared/ImageDownloader.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEltYWdlRG93bmxvYWRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/RiderProjects/HappyInsurance/HappyInsurance/Shared/Logger.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2dlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/RiderProjects/HappyInsurance/HappyInsurance/Shared/LoginDisplay.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luRGlzcGxheS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/RiderProjects/HappyInsurance/HappyInsurance/Shared/Permission.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBlcm1pc3Npb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/RiderProjects/HappyInsurance/HappyInsurance/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/RiderProjects/HappyInsurance/HappyInsurance/Shared/Timer.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFRpbWVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/RiderProjects/HappyInsurance/HappyInsurance/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/RiderProjects/HappyInsurance/HappyInsurance/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-p3vrk2ymd4
+
+[C:/Users/admin/RiderProjects/HappyInsurance/HappyInsurance/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-92yb9xzwfn
+
+[C:/Users/admin/RiderProjects/HappyInsurance/HappyInsurance/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/RiderProjects/HappyInsurance/HappyInsurance/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/RiderProjects/HappyInsurance/HappyInsurance/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

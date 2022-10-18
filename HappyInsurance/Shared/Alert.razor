@@ -1,0 +1,26 @@
+﻿
+
+@{
+    if (!String.IsNullOrEmpty(Message))
+    {
+        <div class="container my-4 Hidden">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <RadzenCard Style="text-align: center">
+                        <RadzenButton Style="margin-bottom: 20px; width: 200px"
+                                      ButtonStyle="ButtonStyle.Danger">
+                            <RadzenText TextStyle="TextStyle.Subtitle1" Style="text-align: center" TagName="TagName.H3">@Message</RadzenText>
+                        </RadzenButton>
+                    </RadzenCard>
+                </div>
+            </div>
+        </div>
+    }
+}
+
+
+
+@code {
+    [CascadingParameter]
+    public string Message { get; set; }
+}

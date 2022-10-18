@@ -1,0 +1,10 @@
+﻿@using CoreApplication.CoreManagementApplication
+
+@inherits HappyInsurance.BlazorCoreModules.CoreComponents.Permission 
+@code {
+    
+    protected override async Task OnInitializedAsync()
+    {
+        await CheckPermission();
+    }
+}

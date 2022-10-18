@@ -1,0 +1,19 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/IgnoredPaths/=WWWROOT_005CFORGETPASSWORD/@EntryIndexedValue">wwwroot\ForgetPassword</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/MappedPaths/=ACCOUNT/@EntryIndexedValue"></s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/MappedPaths/=LOGOUT/@EntryIndexedValue"></s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/MappedPaths/=WWWROOT_005CHAPPYINSURANCE_002ESTYLES_002ECSS/@EntryIndexedValue"></s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/MappedPaths/=WWWROOT_005CIDENTITY_005CACCOUNT_005CLOGIN/@EntryIndexedValue"></s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/MappedPaths/=WWWROOT_005CIDENTITY_005CACCOUNT_005CLOGOUT/@EntryIndexedValue"></s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/MappedPaths/=WWWROOT_005CIDENTITY_005CACCOUNT_005CSIGNUP/@EntryIndexedValue"></s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/MappedPaths/=WWWROOT_005CIDENTIY/@EntryIndexedValue"></s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/MappedPaths/=WWWROOT_005CLOGINMODEL/@EntryIndexedValue"></s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=ACCOUNT/@EntryIndexedValue">Account</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=LOGOUT/@EntryIndexedValue">Logout</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=WWWROOT_005CFORGETPASSWORD/@EntryIndexedValue">wwwroot\ForgetPassword</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=WWWROOT_005CHAPPYINSURANCE_002ESTYLES_002ECSS/@EntryIndexedValue">wwwroot\HappyInsurance.styles.css</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=WWWROOT_005CIDENTITY_005CACCOUNT_005CLOGIN/@EntryIndexedValue">wwwroot\Identity\Account\Login</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=WWWROOT_005CIDENTITY_005CACCOUNT_005CLOGOUT/@EntryIndexedValue">wwwroot\Identity\Account\Logout</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=WWWROOT_005CIDENTITY_005CACCOUNT_005CSIGNUP/@EntryIndexedValue">wwwroot\Identity\Account\Signup</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=WWWROOT_005CIDENTIY/@EntryIndexedValue">wwwroot\Identiy</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=WWWROOT_005CLOGINMODEL/@EntryIndexedValue">wwwroot\LoginModel</s:String></wpf:ResourceDictionary>
